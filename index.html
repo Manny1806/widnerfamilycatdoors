@@ -3,159 +3,561 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Widner Family Cat Doors</title>
+  <title>Cat Door Window Insert (No Drilling) | Widner Family Cat Doors</title>
+  <meta name="description" content="Add a cat door to any window without cutting or drilling. Adjustable, fully removable window insert for sliding &amp; vertical windows, catios, and renters.">
+  <link rel="canonical" href="https://widnerfamilycatdoors.com/">
+
+  <meta property="og:title" content="Cat Door Window Insert (No Drilling) | Widner Family Cat Doors">
+  <meta property="og:description" content="Add a cat door to any window without cutting or drilling. Adjustable, fully removable. Works with sliding &amp; vertical windows, catios, and renters.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://widnerfamilycatdoors.com/">
+  <meta property="og:image" content="https://widnerfamilycatdoors.com/assets/sliding-window-cat-exterior.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Cat Door Window Insert (No Drilling) | Widner Family Cat Doors">
+  <meta name="twitter:description" content="Add a cat door to any window without cutting or drilling. Adjustable, fully removable. Works with sliding &amp; vertical windows, catios, and renters.">
+  <meta name="twitter:image" content="https://widnerfamilycatdoors.com/assets/sliding-window-cat-exterior.jpg">
+
+  <meta name="google-site-verification" content="sRqxRXYvl_TPThztnJfH5Ag22aa3v_dEuDFijFpARks" />
+
+  <link rel="preload" as="image" href="/assets/logo.webp" type="image/webp">
+
+  <!-- Google Analytics (GA4) — replace G-XMX74BLB7J with your real Measurement ID -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XMX74BLB7J"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XMX74BLB7J');
+  </script>
+
   <style>
+    :root {
+      --bg: #fefcf9;
+      --ink: #1c1c1c;
+      --brand: #1f2640;
+      --cream: #fdf6e3;
+      --accent: #ffd200;
+      --soft: #fffbe6;
+      --radius: 10px;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #fefcf9;
-      color: #1c1c1c;
+      background-color: var(--bg);
+      color: var(--ink);
+      line-height: 1.5;
     }
+    .skip-link {
+      position: absolute; left: -9999px; top: 0;
+      background: var(--brand); color: #fff; padding: 10px 16px; z-index: 100;
+    }
+    .skip-link:focus { left: 10px; top: 10px; }
     header {
-      background-color: #fdf6e3; /* soft cream background */
+      background: var(--cream);
       text-align: center;
-      padding: 30px 20px;
+      padding: 32px 20px 22px;
+      border-bottom: 2px solid var(--accent);
     }
     header img {
-      max-width: 500px;
+      max-width: 420px;
       width: 100%;
       height: auto;
     }
-    header h1 {
-      color: #1f2640;
-      font-size: 2.5em;
-      margin: 10px 0 5px;
+    nav.primary {
+      max-width: 980px;
+      margin: 0 auto 14px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 14px;
+      font-size: 0.95rem;
     }
-    header p {
-      color: #333;
-      font-size: 1.2em;
+    nav.primary a { color: var(--brand); text-decoration: none; font-weight: 600; }
+    nav.primary a:hover, nav.primary a:focus { text-decoration: underline; }
+    h1.tagline {
+      color: var(--brand);
+      font-size: 2.2rem;
+      margin: 14px 0 6px;
+      font-weight: 700;
     }
-    .content {
+    .sub {
+      color: #343a5a;
+      font-size: 1.05rem;
+      margin: 0 auto;
+      max-width: 720px;
+    }
+    main.content {
       padding: 40px 20px;
-      max-width: 800px;
+      max-width: 980px;
       margin: 0 auto;
     }
-    .content h2 {
-      color: #1f2640;
-      font-size: 2em;
-      margin-top: 0;
+    section + section { margin-top: 48px; }
+    h2 {
+      color: var(--brand);
+      font-size: 1.9rem;
+      margin: 0 0 14px;
     }
-    .description {
-      font-size: 1.1em;
-      line-height: 1.6;
+    .lead {
+      font-size: 1.06rem;
+      color: #333;
     }
-    .video-container {
-      margin-top: 40px;
-      text-align: center;
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-top: 18px;
     }
-    iframe {
-      width: 100%;
-      height: 400px;
-      border: none;
-      border-radius: 8px;
+    .feature {
+      background: white;
+      border: 1px solid #eee3b5;
+      border-radius: var(--radius);
+      padding: 16px;
+    }
+    .feature h3 {
+      margin: 0 0 6px;
+      font-size: 1.05rem;
+      color: var(--brand);
+    }
+    .feature p {
+      margin: 0;
+      color: #444;
+      font-size: 0.98rem;
     }
     .cta {
       text-align: center;
-      margin: 40px 0;
+      margin: 28px 0 6px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
     }
-    .cta a {
-      background-color: #ffd200;
-      color: #1f2640;
+    .button {
+      background-color: var(--accent);
+      color: var(--brand);
       text-decoration: none;
-      font-weight: bold;
-      padding: 15px 30px;
-      border-radius: 5px;
-      font-size: 1.2em;
+      font-weight: 700;
+      padding: 14px 22px;
+      border-radius: 8px;
+      font-size: 1.06rem;
+      display: inline-block;
+      border: 2px solid transparent;
     }
-    footer {
-      background-color: #1f2640;
-      color: #ffffff;
-      text-align: center;
-      padding: 20px;
-      margin-top: 60px;
+    .button:hover, .button:focus {
+      outline: none;
+      border-color: #e5bd00;
+      transform: translateY(-1px);
+    }
+    .button.secondary {
+      background: white;
+      color: var(--brand);
+      border-color: #e5e5e5;
+    }
+    .video-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+      margin-top: 18px;
+    }
+    @media (min-width: 820px) {
+      .video-grid { grid-template-columns: 1fr 1fr; }
+    }
+    .video {
+      background: #fff;
+      border: 1px solid #eee3b5;
+      border-radius: var(--radius);
+      padding: 12px;
+    }
+    .video h3 {
+      margin: 0 0 8px;
+      color: var(--brand);
+      font-size: 1.05rem;
+    }
+    iframe {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      border: none;
+      border-radius: 8px;
+    }
+    .usecases {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-top: 18px;
+    }
+    .usecase-card {
+      background: white;
+      border: 1px solid #eee3b5;
+      border-radius: var(--radius);
+      padding: 18px;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+    .usecase-card:hover, .usecase-card:focus { border-color: var(--accent); }
+    .usecase-card h3 { margin: 0 0 6px; color: var(--brand); font-size: 1.1rem; }
+    .usecase-card p { margin: 0; color: #444; font-size: 0.97rem; }
+    .faq {
+      margin-top: 18px;
+    }
+    .faq-item {
+      background: white;
+      border: 1px solid #eee3b5;
+      border-radius: var(--radius);
+      padding: 16px 18px;
+      margin-bottom: 12px;
+    }
+    .faq-item h3 {
+      margin: 0 0 8px;
+      font-size: 1.05rem;
+      color: var(--brand);
+    }
+    .faq-item p { margin: 0; color: #333; }
+    .sizing-note {
+      background: var(--soft);
+      border: 1px solid #eee3b5;
+      border-radius: var(--radius);
+      padding: 16px 18px;
+      margin-top: 16px;
     }
     .reviews {
-      background-color: #fffbe6;
+      background-color: var(--soft);
       padding: 40px 20px;
-      max-width: 800px;
+      max-width: 980px;
       margin: 0 auto;
       text-align: center;
-      border-top: 2px solid #ffd200;
-      border-bottom: 2px solid #ffd200;
+      border-top: 2px solid var(--accent);
+      border-bottom: 2px solid var(--accent);
     }
     .reviews h2 {
-      color: #1f2640;
-      font-size: 2em;
-      margin-bottom: 30px;
+      color: var(--brand);
+      font-size: 1.9rem;
+      margin: 0 0 18px;
     }
     .review {
+      background: white;
+      border: 1px solid #eee3b5;
+      border-radius: var(--radius);
+      padding: 16px;
+      margin: 12px auto;
+      max-width: 760px;
       font-style: italic;
-      margin-bottom: 25px;
       color: #333;
+      text-align: left;
     }
     .review span {
       display: block;
-      font-weight: bold;
-      margin-top: 5px;
-      color: #1f2640;
+      font-weight: 700;
+      margin-top: 8px;
+      color: var(--brand);
+      font-style: normal;
+    }
+    footer {
+      background-color: var(--brand);
+      color: #ffffff;
+      text-align: center;
+      padding: 24px 20px 30px;
+      margin-top: 52px;
+    }
+    footer p { margin: 6px 0; }
+    footer a { color: #fff; text-decoration: underline; }
+    footer nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      margin: 10px 0;
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <img src="https://res.cloudinary.com/ddgeabxsl/image/upload/v1748762904/widnercatclosedmouth_ylycpe.png" alt="Widner Family Cat Doors Logo" />
-    <p>Smart, stylish doors for the cats you love</p>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header role="banner">
+    <picture>
+      <source srcset="/assets/logo.webp" type="image/webp">
+      <img src="/assets/logo.png" alt="Widner Family Cat Doors logo" width="1000" height="554" style="max-width:280px;">
+    </picture>
+    <nav class="primary" aria-label="Window types and use cases">
+      <a href="/vertical-window-cat-door">Vertical Windows</a>
+      <a href="/sliding-window-cat-door">Sliding Windows</a>
+      <a href="/catio-window-door">Catios</a>
+      <a href="/no-drill-cat-door">Renters &amp; No-Drill</a>
+    </nav>
+    <h1 class="tagline">A Cat Door for Your Window — No Cutting, No Drilling</h1>
+    <p class="sub">The <strong>adjustable cat door window insert</strong> that fits into sliding and vertical windows with no permanent modification. <strong>Installs or removes in seconds</strong>, no tools or hardware required — take it with you when you move. <strong>$100</strong>, fits windows 16&ndash;36 inches.</p>
+    <div class="cta" aria-label="Primary actions">
+      <a class="button" href="https://www.etsy.com/shop/WidnerFamilyCatDoors?utm_source=website&amp;utm_medium=referral&amp;utm_campaign=homepage_hero" target="_blank" rel="noopener">Shop on Etsy</a>
+      <a class="button secondary" href="#faq">See How It Works</a>
+    </div>
   </header>
 
-  <div class="content">
-    <h2>Product Description</h2>
-    <div class="description">
-      <!-- Paste your Etsy description here -->
-      <p>Our <a target="_blank" href="https://patentsgazette.uspto.gov/week12/OG/html/1544-4/US12584349-20260324.html">patented</a> cat doors are thoughtfully designed for smooth sliding and secure closure, made to fit a wide variety of window types. Easy to install, and even easier to love.</p>
-    </div>
+  <main class="content" id="main-content">
 
-    <div class="cta">
-      <a href="https://www.etsy.com/shop/WidnerFamilyCatDoors" target="_blank">
-        Visit Our Etsy Shop
-      </a>
-    </div>
+    <section aria-labelledby="photos-title">
+      <h2 id="photos-title">See It Installed</h2>
+      <div class="features" role="list">
+        <article class="feature" role="listitem">
+          <img src="/assets/sliding-window-cat-exterior.jpg" alt="Cat using the window insert cat door installed in a sliding window" width="794" height="1059" loading="lazy" style="width:100%; height:auto; border-radius:8px; margin-bottom:10px;">
+          <p>Installed in a horizontal sliding window</p>
+        </article>
+        <article class="feature" role="listitem">
+          <img src="/assets/vertical-window-install-1.jpg" alt="Cat door insert installed at the bottom of a vertical single-hung window" width="794" height="779" loading="lazy" style="width:100%; height:auto; border-radius:8px; margin-bottom:10px;">
+          <p>Installed in a vertical single-hung window</p>
+        </article>
+      </div>
+    </section>
 
-    <div class="video-container">
-      <h2>Horizontal Door Installation Video</h2>
-      <iframe src="https://www.youtube.com/embed/VC6UhhtO_R0?si=uQO9IcaLxqOn9Be4" allowfullscreen></iframe>
-    </div>
+    <section aria-labelledby="features-title">
+      <h2 id="features-title">Why It's Different</h2>
+      <p class="lead">Most cat doors require cutting a hole in a wall or exterior door. Ours installs directly into your window — nothing permanent, nothing you can't take back.</p>
+      <div class="features" role="list">
+        <article class="feature" role="listitem">
+          <h3>No Drilling, No Cutting</h3>
+          <p>Slides into your existing window frame. No tools, no hardware, no holes in your wall or door.</p>
+        </article>
+        <article class="feature" role="listitem">
+          <h3>Adjustable Fit</h3>
+          <p>Resizable to match a range of window heights for a snug, secure seal.</p>
+        </article>
+        <article class="feature" role="listitem">
+          <h3>Renter &amp; Apartment Friendly</h3>
+          <p>Fully removable and reversible — leave your window exactly as you found it, and take the insert with you when you move.</p>
+        </article>
+        <article class="feature" role="listitem">
+          <h3>Works for Catios</h3>
+          <p>Use it to give your cat window access to an outdoor catio without a permanent structural cut-through.</p>
+        </article>
+      </div>
+      <div class="cta">
+        <a class="button" href="https://www.etsy.com/shop/WidnerFamilyCatDoors?utm_source=website&amp;utm_medium=referral&amp;utm_campaign=homepage_features" target="_blank" rel="noopener">See Options on Etsy</a>
+      </div>
+    </section>
 
-    <div class="video-container">
-      <h2>Vertical Door Installation Video</h2>
-      <iframe src="https://www.youtube.com/embed/BRNwTGM4hi8?si=ZuaVWsIqKEXZJPmg" allowfullscreen></iframe>
-    </div>
-  </div>
+    <section aria-labelledby="desc-title">
+      <h2 id="desc-title">Product Description</h2>
+      <p class="lead">
+        Our <a target="_blank" rel="noopener" href="https://patentsgazette.uspto.gov/week12/OG/html/1544-4/US12584349-20260324.html">patented</a> cat door window inserts are engineered for smooth sliding and secure closure, built to fit into sliding (horizontal) and vertical/sash windows. No cutting, no drilling — it installs in the window opening itself, so there's no permanent change to your home. Easy to install, and even easier to remove.
+      </p>
+    </section>
 
-  <div class="reviews">
-    <h2>What Our Customers Are Saying</h2>
-    <div class="review">
-      <p>“This is such a well made pet door. The sliding height design is genius and made to fit such a wide range of heights of windows. I was nervous to purchase because I’ve never purchased a pet door like this before, but it worked absolutely perfectly in my window! So glad I used this company.”</p>
+    <section aria-labelledby="sizing-title">
+      <h2 id="sizing-title">Sizing &amp; Fit</h2>
+      <p class="lead">Both versions adjust to fit windows between 16 and 36 inches — vertical windows adjust by width, sliding windows adjust by height. The cat passage opening is 7 inches wide by 7&frac34; inches tall on every door.</p>
+      <div class="sizing-note">
+        <p><strong>Window bigger than 36 inches?</strong> 8-inch extension panels are sold separately (1 panel $16, 2 panels $32, 3 panels $48) to extend the fit range. Window smaller than 23 inches? A panel segment is removed during install (see the installation videos below). If you're not sure your window will work, message the shop before you buy.</p>
+      </div>
+    </section>
+
+    <section class="video-container" aria-labelledby="install-title">
+      <h2 id="install-title">See It in Action</h2>
+      <div class="video-grid">
+        <div class="video">
+          <h3>Vertical Window Installation (Single/Double-Hung)</h3>
+          <iframe src="https://www.youtube.com/embed/VC6UhhtO_R0?si=uQO9IcaLxqOn9Be4"
+                  title="Vertical window cat door installation video" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <div class="video">
+          <h3>Sliding Window Installation (Horizontal)</h3>
+          <iframe src="https://www.youtube.com/embed/BRNwTGM4hi8?si=ZuaVWsIqKEXZJPmg"
+                  title="Sliding window cat door installation video" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="usecases-title">
+      <h2 id="usecases-title">Find Your Window Type or Use Case</h2>
+      <div class="usecases">
+        <a class="usecase-card" href="/vertical-window-cat-door">
+          <h3>Vertical Windows</h3>
+          <p>Single-hung and double-hung sash windows that open up and down.</p>
+        </a>
+        <a class="usecase-card" href="/sliding-window-cat-door">
+          <h3>Sliding Windows</h3>
+          <p>Horizontal sliding windows that open side to side.</p>
+        </a>
+        <a class="usecase-card" href="/catio-window-door">
+          <h3>Catios</h3>
+          <p>Connect your home to an outdoor catio through a window.</p>
+        </a>
+        <a class="usecase-card" href="/no-drill-cat-door">
+          <h3>Renters &amp; No-Drill Installs</h3>
+          <p>A fully reversible option for apartments and rentals.</p>
+        </a>
+      </div>
+    </section>
+
+    <section aria-labelledby="faq-title" id="faq">
+      <h2 id="faq-title">Frequently Asked Questions</h2>
+      <div class="faq">
+        <div class="faq-item">
+          <h3>Can you put a cat door in a window?</h3>
+          <p>Yes. Instead of cutting a hole in a wall or exterior door, the insert fits directly into your window opening, replacing the need for a permanent cut-through.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Do I need to drill or cut anything to install it?</h3>
+          <p>No. The insert slides into the window opening and is secured without tools, drilling, or hardware. Nothing is permanently altered.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Will this work for a catio?</h3>
+          <p>Yes — it can give your cat window access between your home and an outdoor catio without needing a permanent structural opening.</p>
+        </div>
+        <div class="faq-item">
+          <h3>I rent my home — is this a safe option?</h3>
+          <p>Yes. Because nothing is drilled, cut, or permanently attached, you can remove it and restore the window to its original state, which makes it a renter- and apartment-friendly way to add a cat door.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Can I take it with me if I move?</h3>
+          <p>Yes. The insert isn't fixed to the window — you can remove it and reinstall it in a new home's window.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Does it work with sliding and vertical windows?</h3>
+          <p>Yes, it's designed for both horizontal sliding windows and vertical (single-hung/double-hung) windows. See the <a href="/sliding-window-cat-door">sliding window</a> and <a href="/vertical-window-cat-door">vertical window</a> pages for installation details specific to each.</p>
+        </div>
+        <div class="faq-item">
+          <h3>How much does it cost?</h3>
+          <p>$100 per door, fits windows 16&ndash;36 inches. If your window is larger, 8-inch extension panels are available for $16&ndash;$48. See <a href="https://www.etsy.com/shop/WidnerFamilyCatDoors?utm_source=website&amp;utm_medium=referral&amp;utm_campaign=faq_pricing" target="_blank" rel="noopener">our Etsy shop</a> for current pricing and options.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section class="reviews" aria-labelledby="reviews-title">
+    <h2 id="reviews-title">What Our Customers Are Saying</h2>
+    <p class="lead" style="margin-bottom:10px;"><strong>4.8 out of 5</strong> average rating from <strong>163 reviews</strong> on Etsy &middot; 1,000+ sold</p>
+
+    <blockquote class="review">
+      "This is such a well made pet door. The sliding height design is genius and made to fit such a wide range of heights of windows. I was nervous to purchase because I've never purchased a pet door like this before, but it worked absolutely perfectly in my window! So glad I used this company."
       <span>– Mallory</span>
-    </div>
-    <div class="review">
-      <p>“Excellent product! Love that it is adjustable for if I ever move apartments. Took my furry friend no time to get used to using it. Thank you!”</p>
-      <span>– Lindsay</span>
-    </div>
-    <div class="review">
-      <p>“This is hands down the BEST thing ever! I have looked for years for a perfect window entry for my cats none have been this easy and versatile with two way locks! Can look a cat in or out! Will buy again and also recommend to others!”</p>
-      <span>– Lisa</span>
-    </div>
-    <div class="review">
-      <p>“LOVE it! Been looking for this for years. It’s so easy to install—literally seconds. First kitty just popped out the window. I’ll be getting another and recommending these.”</p>
-      <span>– Jessica</span>
-    </div>
-    <!-- Add more reviews as needed -->
-  </div>
+    </blockquote>
 
-  <footer>
+    <blockquote class="review">
+      "Excellent product! Love that it is adjustable for if I ever move apartments. Took my furry friend no time to get used to using it. Thank you!"
+      <span>– Lindsay</span>
+    </blockquote>
+
+    <blockquote class="review">
+      "This is hands down the BEST thing ever! I have looked for years for a perfect window entry for my cats none have been this easy and versatile with two way locks! Can look a cat in or out! Will buy again and also recommend to others!"
+      <span>– Lisa</span>
+    </blockquote>
+
+    <blockquote class="review">
+      "LOVE it! Been looking for this for years. It's so easy to install—literally seconds. First kitty just popped out the window. I'll be getting another and recommending these."
+      <span>– Jessica</span>
+    </blockquote>
+    <div class="cta" style="margin-top:18px">
+      <a class="button" href="https://www.etsy.com/shop/WidnerFamilyCatDoors?utm_source=website&amp;utm_medium=referral&amp;utm_campaign=homepage_reviews" target="_blank" rel="noopener" aria-label="Shop cat door window inserts on Etsy">Shop on Etsy</a>
+    </div>
+  </section>
+
+  <footer role="contentinfo">
+    <p><strong>Widner Family Cat Doors</strong></p>
+    <nav aria-label="Footer">
+      <a href="/vertical-window-cat-door">Vertical Windows</a>
+      <a href="/sliding-window-cat-door">Sliding Windows</a>
+      <a href="/catio-window-door">Catios</a>
+      <a href="/no-drill-cat-door">Renters &amp; No-Drill</a>
+    </nav>
+    <p>Business &amp; licensing inquiries: <a href="mailto:alex@widnerfamilycatdoors.com">alex@widnerfamilycatdoors.com</a></p>
     <p>&copy; 2026 Widner Family Cat Doors. All rights reserved.</p>
   </footer>
 
+  <script>
+    document.querySelectorAll('a[href*="etsy.com"]').forEach(function (link) {
+      link.addEventListener('click', function () {
+        if (typeof gtag === 'function') {
+          gtag('event', 'etsy_click', {
+            link_url: link.href,
+            link_placement: link.closest('section, header, footer')?.id || link.closest('section, header, footer')?.className || 'unknown'
+          });
+        }
+      });
+    });
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Cat Door Window Insert",
+    "brand": {
+      "@type": "Brand",
+      "name": "Widner Family Cat Doors"
+    },
+    "description": "Adjustable, no-drill cat door window insert for sliding and vertical windows. Installs or removes in seconds without tools or hardware.",
+    "category": "PetSupplies",
+    "url": "https://widnerfamilycatdoors.com/",
+    "image": "https://widnerfamilycatdoors.com/assets/sliding-window-cat-exterior.jpg",
+    "offers": {
+      "@type": "Offer",
+      "price": "100.00",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock",
+      "url": "https://www.etsy.com/shop/WidnerFamilyCatDoors"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "163"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Can you put a cat door in a window?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Instead of cutting a hole in a wall or exterior door, the insert fits directly into your window opening, replacing the need for a permanent cut-through."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need to drill or cut anything to install it?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. The insert slides into the window opening and is secured without tools, drilling, or hardware. Nothing is permanently altered."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Will this work for a catio?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, it can give your cat window access between your home and an outdoor catio without needing a permanent structural opening."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "I rent my home — is this a safe option?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Because nothing is drilled, cut, or permanently attached, you can remove it and restore the window to its original state."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I take it with me if I move?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. The insert isn't fixed to the window, so you can remove it and reinstall it in a new home's window."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does it work with sliding and vertical windows?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, it's designed for both horizontal sliding windows and vertical single-hung or double-hung windows."
+        }
+      }
+    ]
+  }
+  </script>
 </body>
 </html>
