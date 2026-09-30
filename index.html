@@ -300,6 +300,7 @@
     <p class="sub">The <strong>adjustable cat door window insert</strong> that fits into sliding and up-and-down windows with no permanent modification. <strong>Installs or removes in seconds</strong>, no tools or hardware required — take it with you when you move. <strong>$90</strong>, fits windows 16&ndash;36 inches.</p>
     <div class="cta" aria-label="Primary actions">
       <a class="button" href="https://widnerfamilycatdoors.etsy.com" target="_blank" rel="noopener">Shop on Etsy</a>
+      <a class="button secondary" href="https://www.ebay.com/itm/278424013113" target="_blank" rel="noopener">Shop on eBay</a>
       <a class="button secondary" href="#how-it-works">See How It Works</a>
     </div>
     <p class="cta-note">Not sure which one you need? See the <a href="/vertical-window-cat-door">up &amp; down window</a> or <a href="/sliding-window-cat-door">sliding window</a> version.</p>
@@ -344,6 +345,7 @@
       </div>
       <div class="cta">
         <a class="button" href="https://widnerfamilycatdoors.etsy.com" target="_blank" rel="noopener">See Options on Etsy</a>
+        <a class="button secondary" href="https://www.ebay.com/itm/278424013113" target="_blank" rel="noopener">See Options on eBay</a>
       </div>
     </section>
 
@@ -429,7 +431,7 @@
         </div>
         <div class="faq-item">
           <h3>How much does it cost?</h3>
-          <p>$90 per door, fits windows 16&ndash;36 inches. If your window is larger, 8-inch extension panels are available for $16&ndash;$48. See <a href="https://widnerfamilycatdoors.etsy.com" target="_blank" rel="noopener">our Etsy shop</a> for current pricing and options.</p>
+          <p>$90 per door, fits windows 16&ndash;36 inches. If your window is larger, 8-inch extension panels are available for $16&ndash;$48. See <a href="https://widnerfamilycatdoors.etsy.com" target="_blank" rel="noopener">our Etsy shop</a> or <a href="https://www.ebay.com/itm/278424013113" target="_blank" rel="noopener">eBay listing</a> for current pricing and options.</p>
         </div>
       </div>
     </section>
@@ -460,6 +462,7 @@
     </blockquote>
     <div class="cta" style="margin-top:18px">
       <a class="button" href="https://widnerfamilycatdoors.etsy.com" target="_blank" rel="noopener" aria-label="Shop cat door window inserts on Etsy">Shop on Etsy</a>
+      <a class="button secondary" href="https://www.ebay.com/itm/278424013113" target="_blank" rel="noopener" aria-label="Shop cat door window inserts on eBay">Shop on eBay</a>
     </div>
   </section>
 
@@ -480,6 +483,16 @@
       link.addEventListener('click', function () {
         if (typeof gtag === 'function') {
           gtag('event', 'etsy_click', {
+            link_url: link.href,
+            link_placement: link.closest('section, header, footer')?.id || link.closest('section, header, footer')?.className || 'unknown'
+          });
+        }
+      });
+    });
+    document.querySelectorAll('a[href*="ebay.com"]').forEach(function (link) {
+      link.addEventListener('click', function () {
+        if (typeof gtag === 'function') {
+          gtag('event', 'ebay_click', {
             link_url: link.href,
             link_placement: link.closest('section, header, footer')?.id || link.closest('section, header, footer')?.className || 'unknown'
           });

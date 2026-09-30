@@ -96,6 +96,7 @@
 
     <div class="cta cta-top">
       <a class="button" href="https://widnerfamilycatdoors.etsy.com/listing/1798922144/cat-door-for-window-resizable-fits-16-36" target="_blank" rel="noopener">Buy Now on Etsy</a>
+      <a class="button secondary" href="https://www.ebay.com/itm/278424013113?var=2561019025480" target="_blank" rel="noopener">Buy Now on eBay</a>
     </div>
 
     <div class="photos">
@@ -151,6 +152,7 @@
 
     <div class="cta">
       <a class="button" href="https://widnerfamilycatdoors.etsy.com/listing/1798922144/cat-door-for-window-resizable-fits-16-36" target="_blank" rel="noopener">Shop This Cat Door on Etsy — $90</a>
+      <a class="button secondary" href="https://www.ebay.com/itm/278424013113?var=2561019025480" target="_blank" rel="noopener">Shop This Cat Door on eBay — $90</a>
     </div>
   </main>
 
@@ -171,6 +173,13 @@
       link.addEventListener('click', function () {
         if (typeof gtag === 'function') {
           gtag('event', 'etsy_click', { link_url: link.href, page: 'vertical-window-cat-door' });
+        }
+      });
+    });
+    document.querySelectorAll('a[href*="ebay.com"]').forEach(function (link) {
+      link.addEventListener('click', function () {
+        if (typeof gtag === 'function') {
+          gtag('event', 'ebay_click', { link_url: link.href, page: 'vertical-window-cat-door' });
         }
       });
     });
